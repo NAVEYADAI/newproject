@@ -51,6 +51,7 @@ function CompanyRegistration(){
                     // userId: userId,
                     // level: level
                     });
+
                 console.log('Data sent successfully:', response.data);
                 alert("החברה נוספה")
             } catch (error) {
